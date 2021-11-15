@@ -7,7 +7,7 @@ public class Bird : MonoBehaviour
     public float speed = 3.5f;
     public float jumpForce = 10f;
 
-    private bool dead = false;
+    public bool dead = false;
 
     // Start is called before the first frame update
     void Start()
