@@ -6,7 +6,7 @@ public class Bird : MonoBehaviour
 {
     public float speed = 3.5f;
     public float jumpForce = 10f;
-
+    public int coins = 0;
     public bool dead = false;
 
     // Start is called before the first frame update
